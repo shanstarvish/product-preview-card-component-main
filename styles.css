@@ -1,0 +1,138 @@
+@font-face {
+    font-family:"Montserrat";
+    src: 
+    local("Montserrat"),
+    url("https://fonts.google.com/specimen/Montserrat");
+    weight: 500, 700;
+}
+@font-face {
+    font-family: "Fraunces";
+    src:
+    local("Franunces"),
+    url("https://fonts.google.com/specimen/Fraunces") format("truetype");
+    weight: 700;
+}
+
+
+body {background-color: hsl(30, 38%, 92%);}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 375px) {
+    .container {
+      flex-direction: column;}}
+
+.container {
+   
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: auto;
+margin-right: auto;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 10px;
+   
+}
+
+img {
+  
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.description {display: flex;}
+
+
+.perfume {margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 30px;
+margin-right: 20px;}
+
+.title {margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 10px;}
+
+.details {margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 10px;
+line-height: 2;}
+
+.amounts,.button {margin-left: 30px;
+margin-right: 20px;}
+
+.price {margin-right: 10px;
+margin-bottom: 20px;}
+
+.amounts {display: flex;
+flex-direction: row;
+
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.button:hover {
+    background-color: hsl(157, 18%, 64%);
+    cursor: pointer;
+}
+
+.button:active { background-color: hsl(157, 18%, 64%);
+
+}
+
+.perfume {font-family: "Montserrat";
+color: hsl(228, 12%, 48%);
+letter-spacing: 2px;
+font-size: 10px;}
+
+.title {
+font-family: "Fraunces"; 
+font-size: 23px;
+color: black;
+font-weight: 700;
+}
+
+.details {font-family: "Montserrat";
+font-size: 10px;
+color: hsl(228, 12%, 48%)}
+
+.price {font-family: "Fraunces";
+display: flex;
+font-size: 24px;
+color: hsl(158, 36%, 37%);
+font-weight: 700}
+
+.discount {font-family: "Montserrat";
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 10px;
+  padding-left: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cart {margin-right: 10px;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
