@@ -2,15 +2,15 @@
     font-family:"Montserrat";
     src: 
     local("Montserrat"),
-    url("https://fonts.google.com/specimen/Montserrat");
-    weight: 500, 700;
+    url("https://fonts.google.com/specimen/Montserrat") format("truetype");
+
 }
 @font-face {
     font-family: "Fraunces";
     src:
     local("Fraunces"),
     url("https://fonts.google.com/specimen/Fraunces") format("truetype");
-    weight: 700;
+ 
 }
 
 
