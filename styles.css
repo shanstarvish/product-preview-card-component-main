@@ -2,14 +2,14 @@
     font-family:"Montserrat";
     src: 
     local("Montserrat"),
-    url("https://fonts.google.com/specimen/Montserrat") format("truetype");
+   url("Fonts/Montserrat-VariableFont_wght.ttf")
 
 }
 @font-face {
     font-family: "Fraunces";
     src:
     local("Fraunces"),
-    url("https://fonts.google.com/specimen/Fraunces") format("truetype");
+    url("Fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
  
 }
 
